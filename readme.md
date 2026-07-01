@@ -26,11 +26,16 @@ __IC Engine Module__
 
 __Finding | Value__
 
-EV Safety Margin at rated discharge rate (2C) | 83%
-EV Safety Margin at peak burst (11C) | 31%
-EV Safety Margin at thermal runaway (14C) | 3% over limit at \~245 seconds of sustained 14C discharge
-MATLAB vs SolidWorks agreement from 1C - 5C | \~5.2% maximum percent difference
-IC Engine Coolant Flow rate to prevent overheating | 233% increase from 0.75 kg/s to 2.5 kg/s
+EV Safety Margin at rated discharge rate (2C) | 83%  
+
+EV Safety Margin at peak burst (11C) | 31%  
+
+EV Safety Margin at thermal runaway (14C) | 3% over limit at \~245 seconds of sustained 14C discharge  
+
+MATLAB vs SolidWorks agreement from 1C - 5C | \~5.2% maximum percent difference  
+
+IC Engine Coolant Flow rate to prevent overheating | 233% increase from 0.75 kg/s to 2.5 kg/s  
+
 IC Engine overheating reached | at 300 kW in \~346 seconds, at 359 kW in \~136 seconds, both at \~0.016 kg/s fuel flow rates
 
 ## Screenshots
