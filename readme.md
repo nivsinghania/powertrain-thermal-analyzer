@@ -10,13 +10,13 @@ The problem that this project looks to solve is the cost of experimental testing
 
 This project has two different modules, and both have similar rationales and scripts, but they serve entirely different purposes.
 
-\*\* EV Battery Module \*\*
+__EV Battery Module__
 
 * This module models heat generation and temperature rise in lithium-ion EV battery cells using the Bernardi equation of heating, where the generated heat is directly proportional to the current squared and the internal resistance of the cell. The original testing was done based around the true data provided from the Panasonic NCR21700T battery cell, which is most commonly used in Tesla cars, specifically models 3 and Y.
 * It also identifies thermal runaway risk across discharge rates, starting from the ideal rated discharge of the cell all the way up to the discharge rate that puts the cell in the most probable and the quickest risk of suffering from thermal runaway.
 * The results are then validated and cross-verified with a SolidWorks Flow Simulation model. For the Panasonic NCR21700T cell, the results from SolidWorks and the management system were within \~5% across the 1C to 5C discharge rates.
 
-\*\* IC Engine Module \*\*
+__IC Engine Module__
 
 * This module models the heat rejection and engine block temperature using a power-derived fuel flow calculation, where the fuel flow is directly proportional to the mechanical power used and indirectly proportional to the efficiency of the engine and the lower heating value of the fuel. The original testing was done based around the true data provided from the Ford 5.0L Coyote v8 Engine, which is most commonly used in the Ford Mustang and Ford F-150 lines.
 * It also identifies the overheating risk and minimum coolant flow rate that the engine block needs to not reach overheating values at all at the maximum usage of the engine, which dissolves to the rated power of the engine that the manufacturer provides.
@@ -24,7 +24,7 @@ This project has two different modules, and both have similar rationales and scr
 
 ## Key Results
 
-\*\* Finding | Value \*\*
+__Finding | Value__
 
 EV Safety Margin at rated discharge rate (2C) | 83%
 EV Safety Margin at peak burst (11C) | 31%
@@ -35,13 +35,13 @@ IC Engine overheating reached | at 300 kW in \~346 seconds, at 359 kW in \~136 s
 
 ## Screenshots
 
-! \[EV battery cell thermal analysis](matlab/EV/Panasonic NCR21700T Final)
+<img width="500" height="310" alt="image" src="https://github.com/user-attachments/assets/3fb9ce57-ab52-4cf7-88de-dd009328572d" />
 
-! \[IC Engine thermal analysis](matlab/ICE/Ford 5.0L Coyote v8 Engine Final)
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f22f943c-1181-4173-b311-d3800bc10469" />
 
 
 
-\## Validation
+## Validation
 
 
 
@@ -56,7 +56,7 @@ Full validation tables for the EV Battery cell are in 'datasheets/results/matlab
 
 
 
-\## Limitations and Future Work
+## Limitations and Future Work
 
 
 
@@ -65,7 +65,7 @@ Full validation tables for the EV Battery cell are in 'datasheets/results/matlab
 
 
 
-\## Technologies and Software Used
+## Technologies and Software Used
 
 
 
@@ -73,7 +73,7 @@ MATLAB (ode45, App Designer), SolidWorks, SolidWorks Flow Simulation,
 
 
 
-\## How to Run
+## How to Run
 
 
 
@@ -84,7 +84,7 @@ MATLAB (ode45, App Designer), SolidWorks, SolidWorks Flow Simulation,
 
 
 
-\## Author
+## Author
 
 
 
