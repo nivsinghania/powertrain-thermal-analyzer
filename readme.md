@@ -93,5 +93,5 @@ MATLAB (ode45, App Designer), SolidWorks, SolidWorks Flow Simulation,
 
 
 
-\*\* Nivid Singhania - Honors Mechanical Engineering at Arizona State University \*\*
+__Nivid Singhania - Honors Mechanical Engineering at Arizona State University__
 
